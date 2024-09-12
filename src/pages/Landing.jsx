@@ -14,11 +14,11 @@ function Landing() {
       <Col className='cols=6' sm={12} md={12}>
         <h3 className='text-center text-white m-5'><i className="fa-solid fa-address-book fa-beat fa-2xl m-3 text-center" style={{color: "#7f0b17",}} />
           Contact Management</h3>
-          <p  className='justify-content-center text-white align-items-center p-5 m-5 container'>A contacts manager for business can 
+          {/* <p  className='justify-content-center text-white align-items-center p-5 m-5 container pa'>A contacts manager for business can 
             help you keep track of important contacts, manage lists, and share information
-             with colleagues. It can also help you mark contacts, add notes, and import/export lists.
+             with colleagues.It can also help you mark contacts, add notes, and import/export lists.
               With a contacts manager, you can easily organize and manage your contacts.Automating contact management is the key to building strong 
-              customer relationships at scale.</p>
+              customer relationships at scale.</p> */}
              <div className='text-center'>
               <Link to={'/home'} className='btn btn-danger'>Let's Go</Link>
              
@@ -34,7 +34,7 @@ function Landing() {
       <h3 className='text-center text-danger p-3 fs-2'>Features</h3>
       <div className='d-flex justify-content-around p-5'>
         
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} sm={12} md={6}>
       <Card.Img variant="top" height={'200px'} src="https://cdnsm5-ss10.sharpschool.com/UserFiles/Servers/Server_415374/Image/News/2016/September/Update%20Contact%20Information.jpg" />
       <Card.Body>
         <Card.Title className='text-warning text-bolder fs-3'>Update Contacts</Card.Title>
@@ -45,7 +45,7 @@ function Landing() {
 
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }} sm={12} md={6}>
       <Card.Img variant="top" height={'200px'} src="https://icons.iconarchive.com/icons/ampeross/qetto-2/256/add-contact-icon.png" />
       <Card.Body>
         <Card.Title className='text-warning text-bolder fs-3'>Add Contacts </Card.Title>
@@ -54,7 +54,7 @@ function Landing() {
         </Card.Text>
       </Card.Body>
     </Card>
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }} sm={12} md={6}>
       <Card.Img variant="top" height={'200px'} src="https://www.mobikin.com/d/file/data-clean/delete-contacts-on-android.jpg" />
       <Card.Body>
         <Card.Title className='text-warning text-bolder fs-3'>Remove Contacts</Card.Title>

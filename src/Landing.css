@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+    .pa {
+        display: none;
+        color: blueviolet;
+    }
+}
